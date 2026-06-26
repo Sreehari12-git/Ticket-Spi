@@ -26,18 +26,16 @@ input {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* .nav-left {
-  flex: 1;
-} */
+
 .logo {
   
- height: 60px;     /* increase height */
-  width: auto;      /* keep proportions */
+ height: 60px;     
+  width: auto;      
   object-fit: contain;
 
 }
 
-/* CENTER */
+
 .nav-center {
   flex: 1;
   display: flex;
@@ -66,17 +64,17 @@ input {
   padding-bottom: 6px;
 }
 
-/* visited links */
+
 .nav-links a:visited {
   color: #333;
 }
 
-/* hover effect */
+
 .nav-links a:hover {
   color: red;
 }
 
-/* active selected link */
+
 .nav-links a.active {
   color: #ff2d2d;
 }
@@ -115,9 +113,9 @@ input {
   border-radius: 2px;
 }
 
-/* RIGHT */
+
 .nav-right {
-  margin-left: auto;   /* pushes this group to the right */
+  margin-left: auto;   
   display: flex;
   align-items: center;
   gap: 20px;
@@ -126,7 +124,7 @@ input {
   width: 100%;
   max-width: 350px;
   height: 40px;
-  padding-left: 45px;   /* IMPORTANT: create space for icon */
+  padding-left: 45px;   
   padding-right: 20px;
   border-radius: 30px;
   border: 1px solid #ddd;
@@ -144,7 +142,7 @@ input {
 
   display: flex;
   align-items: center;
-  gap: 10px;   /* space between icon and text */
+  gap: 10px;   
 }
 
 .login {
@@ -158,7 +156,7 @@ input {
 
   display: flex;
   align-items: center;
-  gap: 8px;   /* space between icon & text */
+  gap: 8px;   
 }
 
 .login:hover {
@@ -174,13 +172,13 @@ input {
   color: #333;
   font-size: 16px;
   cursor: pointer;
-   display: flex;        /* ADD THIS */
-  align-items: center;  /* ADD THIS */
-  gap: 10px;            /* CONTROL SPACING HERE */
+   display: flex;        
+  align-items: center;  
+  gap: 10px;            
 }
 
 .city-select-btn:hover {
-  color: #ff2d2d;   /* red on hover */
+  color: #ff2d2d;   
 }
 
 .search-wrapper {
@@ -193,10 +191,10 @@ input {
   position: absolute;
   left: 18px;
   color: #888;
-  pointer-events: none; /* prevents blocking clicks */
+  pointer-events: none; 
 }
 
-/* ===== MOVIE SECTION ===== */
+
 
 .no-movies-container {
   padding: 25px;
@@ -282,7 +280,7 @@ input {
 }
 
 .no-movies-card:hover {
-   transform: scale(1.04); /* slightly bigger */
+   transform: scale(1.04); 
   box-shadow: 0 25px 60px rgba(0, 0, 0, 0.2);
 }
 
@@ -310,7 +308,7 @@ input {
   transform: translateY(-5px);
 }
 
-/* ===== FOOTER ===== */
+
 
 .footer {
   background: linear-gradient(to right, #2d2f36, #3b3e46);
@@ -319,7 +317,7 @@ input {
   margin-top: 60px;
 }
 
-/* Top Banner */
+
 .footer-top {
   background: #2c2f36;
   padding: 20px 60px;
@@ -344,7 +342,7 @@ input {
   background: #e60000;
 }
 
-/* Main Footer Content */
+
 .footer-content {
   text-align: center;
   padding: 40px 20px;
@@ -402,8 +400,8 @@ input {
   border: none;
   background: #eee;
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);  /* ADD THIS */
-  transition: all 0.3s ease;                   /* smooth effect */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);  
+  transition: all 0.3s ease;                   
 
 }
 
