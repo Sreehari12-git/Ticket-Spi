@@ -29,12 +29,10 @@ function Navbar() {
   const [showModal, setShowModal] = useState(false);
   const [selectedCity, setSelectedCity] = useState("Select City");
 
-  //Location of each page
   const location = useLocation();
   const isStorePage = location.pathname.startsWith("/stores");
 
-  //Cart icon useState
-  const [cartCount, setCartCount] = useState(0); // 0  means empty
+  const [cartCount, setCartCount] = useState(0);
 
   return (
     <nav className="navbar">
@@ -63,7 +61,6 @@ function Navbar() {
   </div>
 
   <div className="nav-right">
-      {/* If NOT store page → show Publish */}
     {!isStorePage && (
     <button className="publish-btn">  <Ticket size={18} />Publish Event</button>)}
     <button
